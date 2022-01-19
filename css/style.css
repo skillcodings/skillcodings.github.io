@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Sans-Serif;
+  background: #eaeaea;
+}
+
+/* Versi Mobile */
+header {
+  width: 95%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  /*background: linear-gradient(to right, #ff7adf, #d85eff, #a74eff, #704fff);*/
+  background: #ddd;
+  margin: auto;
+}
+header p span {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20px;
+}
+header p span:nth-child(1) {
+  color: #704fff;
+  text-shadow: 0px 0px 20px #ff7adf ;
+}
+header p span:nth-child(2) {
+  color: #ff7adf;
+  text-shadow: 0px 0px 20px #704fff;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+  background: #fff;
+  padding: 5px;
+}
+.container .tag {
+  text-indent: 10px;
+  font-size: 15px;
+  text-transform: lowercase;
+}
+
+/* Section ke 1 */
+.container .satu, .container .dua {
+  margin-bottom: 30px;
+}
+.container .satu .judul {
+  font-size: 34px;
+  margin: 20px 0 5px;
+}
+.container .satu img {
+  width: 100%;
+}
+.container .satu p {
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+.container .satu ol {
+  margin-left: 60px;
+}
+
+/* Section ke 2 */
+.container .dua p {
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+.container .dua p:nth-child(5) {
+  margin-bottom: 20px;
+}
+.container .dua img {
+  width: 100%;
+}
+.container .dua .subJudul {
+  font-size: 22px;
+  margin-top: 20px;
+}
+.container .dua table {
+  text-align: center;
+  line-height: 22px;
+  margin: auto;
+}
+}
+.container .dua .teksBox {
+  width: 100%;
+  background-color: #edebeb;
+  border-left: 7px solid deepskyblue;
+  color: #737373;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.container .dua p:last-child {
+  margin-top: 20px;
+}
+
+footer {
+  background: grey;
+  padding: 5px;
+  color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Skill Coding</title>
+</head>
+<body>
+  <header>
+    <p>
+      <span>Skill</span> 
+      <span>Coding</span>
+    </p>
+  </header>
+  
+  <div class="container">
+    <p class="tag">#Belajar HTML</p>
+    <section class="satu">
+      <h2 class="judul">Pengertian HTML dan Fungsinya</h2>
+      <img src="img/html.png" alt="html">
+      <p>Jika anda ingin menjadi web developer handal, Anda wajib banget paham dengan pengertian HTML. Soalnya, HTML adalah satu komponen website yang sangat penting.</p>
+      <p>Nah, jadi pengertian dari HTML (<strong>Hypertext Markup Language</strong>) adalah suatu bahasa yang menggunakan tanda-tanda tertentu yaitu biasa disebut dengan (tag) untuk menyatakan kode-kode yang harus diterjemahkan oleh browser agar halaman tersebut dapat ditampilkan dengan benar. </p>
+      <p>Secara umum, fungsi HTML adalah untuk mengelola serangkaian data dan informasi sehingga suatu dokumen dapat diakses dan ditampilkan di Internet melalui layanan web.</p>
+      <p>Fungsi HTML yang lebih spesifik adalah sebagai berikut:</p>
+      <ol>
+        <li>Membuat halaman web.</li>
+        <li>Menampilkan beberapa informasi dalam sebuah browser internet.</li>
+        <li>Membuat link menuju halaman web lain dengan kode tertentu (hyperlink).</li>
+      </ol>
+    </section>
+    
+    <section class="dua">
+      <h2 class="judul">Mengenal Tag HTML, Elemen, dan Atribut</h2>
+      <p>Setelah mengetahui pengertian dari HTML, sekarang Anda perlu tahu komponen-komponen yang terdapat pada HTML.</p>
+      <p>Secara umum HTML terdiri dari Tag, Elemen, dan Atribut.</p>
+      <img src="img/elemen.jpg" alt="element">
+      <p>Berikut ini penjelasannya:</p>
+      <h4 class="subJudul">1. Tag</h4>
+      <p><strong>Tag</strong> adalah awalan dan akhiran dalam perintah HTML yang akan dibaca oleh web broswer. Tag dibuat dengan menggunakan kurung siku &lt;...&gt;, dimana di dalamnya berisi nama tag.</p>
+      <p>Setiap tag memiliki fungsi perintah yang berbeda-beda. Mulai dari membuat judul, paragraf, heading, cetak miring, italic, dan lainnya.</p>
+      <p>Misalnya: <b>&lt;bold&gt;</b>. Tag tersebut akan meminta browsed untuk menampilkan teks dengan format tebal.</p>
+      <p>Selain itu, tag ditulis secafa berpasangan, yaitu <b>tag pembuka</b> dan <b>tag penutup</b>. Pada tag penutup ditambahkan garis miring (/) di depan nama tag.</p>
+      <p>Tag HTML sendiri saat ini sudah berjumlah lebih dari 250 tag. Banyak juga, ya. Namun, Anda tak perlu menghafal semua tag yang ada. Anda hanya perlu mengingat beberapa tag dasar berikut ini:</p>
+      <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+          <th>Tag</th>
+          <th>Fungsi Tag</th>
+        </tr>
+        <tr>
+          <td>&lt;html&gt;</td>
+          <td>Untuk memulai halaman HTML yang mencakup semua konten dan elemen.</td>
+        </tr>
+        <tr>
+          <td>&lt;head&gt;</td>
+          <td>Untuk membuat halaman HTML yang mencakup tampilan deskripsi di hasil pencarian Google, style konten (CSS), dan lainnya.</td>
+        </tr>
+        <tr>
+          <td>&lt;title&gt;</td>
+          <td>Untuk membuat judul website.</td>
+        </tr>
+        <tr>
+          <td>&lt;body&gt;</td>
+          <td>Untuk membuat bagian isi website.</td>
+        </tr>
+        <tr>
+          <td>&lt;h1&gt; sampai &lt;h6&gt;</td>
+          <td>Untuk membuat heading pada bagian artikel (h1 terbesar, h6 terkecil).</td>
+        </tr>
+        <tr>
+          <td>&lt;p&gt;</td>
+          <td>Untuk membuat paragraf.</td>
+        </tr>
+        <tr>
+          <td>&lt;!-- --&gt;</td>
+          <td>Untuk membuat komentar.</td>
+        </tr>
+      </table>
+      
+      <h2 class="subJudul">2. Elemen</h2>
+      <p><strong>Elemen</strong> merupakan komponen HTML yang berupa keseluruhan kode dari tag pembuka hingga tag penutup. Elemen terdiri dari teks dan simbol yang berupa tag pembuka, isi tag atau konten, dan tag penutup.</p>
+      <p><b>Contohnya:</b> &lt;i&gt;Belajar HTML&lt;/i&gt;</p><br>
+      <p>Pada sebuah elemen juga bisa berisi elemen lainnya. Jadi elemen tersebut tak hanya berisi satu tag saja, tetapi banyak tag. Elemen itu disebut <strong>nested elements</strong>. Sebagai contoh, simak kode berikut: </p>
+      <div class="teksBox">
+        <p>
+          &lt;html&gt; <br>
+          &lt;body&gt; <br>
+          &lt;h2&gt;judul heading&lt;/h2&gt; <br>
+          &lt;p&gt;paragraf pertama&lt;/p&gt; <br>
+          &lt;body&gt; <br>
+          &lt;html&gt;
+        </p>
+      </div>
+      <p>Jika diperhatikan element HTML tersebut, dari tag pembuka &lt;html&gt; lalu tag &lt;body&gt; yang berisi elemen tag heading dan elemen tag paragraf.</p>
+      
+      <h2 class="subJudul">3. Atribut</h2>
+      <p><strong>Atribut</strong> adalah informasi atau perintah tambahan yang berada dalam elemen. Atribut ini berfungsi sebagai penjelas perintah tag pada elemen.</p>
+      <p>Misalnya, &lt;img src="gambar.jpg" alt="komputer"&gt;.</p>
+      <p>Tag &lt;img&gt; memiliki atribut khusus yaitu (scr) dan (alt) yang artinya browser harus menampilkan gambar.jpg dengan alt text “komputer”.</p>
+      <p>Dari contoh di atas, dapat diketahui juga kalau jumlah atribut dalam sebuah tag bisa lebih dari satu. Meski demikian, tidak semua atribut bisa digunakan dalam sebuah tag. Berikut ini jenis <b>atribut khusus</b> beberapa tag: </p>
+      <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+          <th>Atribut</th>
+          <th>Dapat digunakan pada Tag</th>
+        </tr>
+        <tr>
+          <td>src</td>
+          <td>&lt;img&gt;, &lt;embed&gt;, &lt;audio&gt;, &lt;iframe&gt;</td>
+        </tr>
+        <tr>
+          <td>href</td>
+          <td>&lt;a&gt;, &lt;link&gt;</td>
+        </tr>
+        <tr>
+          <td>action</td>
+          <td>&lt;form&gt;</td>
+        </tr>
+        <tr>
+          <td>autoplay</td>
+          <td>&lt;audio&gt;, &lt;video&gt;</td>
+        </tr>
+      </table>
+      <p>Selain atribut khusus, ada beberapa atribut yang digunakan untuk menentukan aksi pada dilakukan jika terjadi sesuatu pada elemen. Misalnya , <b>(onload)</b> saat loading selesai, <b>(onoffline)</b> saat tiba-tiba offline, <b>(onresize)</b> ukuran jendela. Atribut tersebut disebut dengan <b>atribut event</b>.</p>
+    </section>
+    
+    <footer>&copy;Copyright 2022. Skill Coding.</footer>
+  </div>
+  
+</body>
+</html>
